@@ -42,3 +42,33 @@ git remote add origin https://github.com/Vinodkumar-yerraballi/simple.git
 git branch -M main
 git push origin main
 ```
+
+tox command
+
+```bash
+tox
+```
+
+tox rebuliding
+
+```bash
+tox -r
+```
+
+pytest command
+
+```bash
+pytest -v
+```
+
+setup commands -
+
+```bash
+pip install -e .
+```
+
+build your own package commands-
+
+```bash
+python setup.py sdist bdist_wheel
+```
